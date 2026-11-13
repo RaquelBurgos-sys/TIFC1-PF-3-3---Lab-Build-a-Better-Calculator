@@ -7,6 +7,19 @@ def addmultiplenumbers(numbers):
 
     return resultado_suma
 
+def multiplymultiplenumbers(numbers):
+
+    resultado = 1
+
+    for i in numbers:
+        resultado = resultado * i
+
+    return resultado
+
+
+
+
+
 
 def main():
 
@@ -23,4 +36,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
