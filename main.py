@@ -16,8 +16,11 @@ def multiplymultiplenumbers(numbers):
 
     return resultado
 def isiteven(num):
-
-    return num % 2 == 0
+    if isinstance(num, int) and num % 2 ==0:
+        return True
+    else:
+        return False
+        
 
 
 def isitaninteger(num):
