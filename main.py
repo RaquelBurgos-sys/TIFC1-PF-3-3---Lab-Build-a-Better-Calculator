@@ -15,8 +15,14 @@ def multiplymultiplenumbers(numbers):
         resultado = resultado * i
 
     return resultado
+def isiteven(num):
+
+    return num % 2 == 0
 
 
+def isitaninteger(num):
+
+    return isinstance(num, int)
 
 
 
